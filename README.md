@@ -8,7 +8,7 @@ This repo is home to all of the AI-MPC algorithms proposed in my thesis. LaTeX f
 - CUDA (version)
 
 ## Usage
-You can train your own models from scratch or use the pre-trained models found in the repo by changing the config file.
+You can train your own models from scratch or use the pre-trained models found in the repo by modifying the config file.
 ### Training your own models
 Open the folder containing the project you're interested in and run train.py
 
