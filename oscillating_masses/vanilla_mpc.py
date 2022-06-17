@@ -3,7 +3,7 @@ Run a simulation with the parameters specified in the configuration file
 
 """
 from config import config
-from ..utils import functions
+from utils.functions import timer, timeit, print_time
 import numpy as np
 import do_mpc
 from casadi import *
