@@ -1,4 +1,4 @@
-# Model Predictive Controllers with Intelligent Optimizers
+# Model Predictive Controllers with Intelligent Optimizers (WIP 6/17/2022, Defense 10/10/2022)
 ## Introduction
 This repo is home to all of the AI-MPC algorithms proposed in my thesis. LaTeX file can be found online at https://www.overleaf.com/project/62aad9aa3424ff9b2141b617
 
