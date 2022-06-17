@@ -18,12 +18,28 @@ And applied control examples for
 - Numpy (version)
 
 ## Usage
+Clone this repo
+
+    git clone https://github.com/Catra2/thesis
+
+It is recommended to use [Anaconda](https://www.anaconda.com/products/distribution) package manager, in which case you can run: 
+
+    conda env create -f environment.yml
+    conda activate thesis
+
 There are two options:
 - Train your own models from scratch
 - Use provided pre-trained models
 
+### Using Pre-trained Models
+1. Navigate to the folder containing the project you're interested in
+2. Modify 
+
 ### Training your own models
-Open the folder containing the project you're interested in and type:
+1. Navigate to the folder containing the project you're interested in
+2. Modify the local config.py file manually and alter the paths related to models and checkpoints to your preference
+3. To see a full list of available options, run:
+
     python train.py -h
 
 ## Related Work
