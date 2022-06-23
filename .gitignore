@@ -1,1 +1,6 @@
 *.pyc
+*.asv
+slprj/
+*.slxc
+.idea/
+.git/
