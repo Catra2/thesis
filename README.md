@@ -2,7 +2,7 @@
 ## Updates
 Upcoming project architecture modifications will integrate MATLAB to the workflow. MPC/MHE, modeling, simulation, and data analysis will be offloaded to MATLAB. The flow chart below outlines the overall intended structure.
 
-[Controller Training Block Diagram](/assets/block_diagram.png)
+[Controller Training Block Diagram](/assets/block_diagram_runtime.png)
 
 ## Introduction
 This repo is home to all of the AI-MPC algorithms proposed in my thesis. The LaTeX [manuscript](https://www.overleaf.com/read/fnqgjjqtmtzw) is available online.
