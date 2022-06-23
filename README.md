@@ -1,4 +1,9 @@
 # Model Predictive Controllers with Intelligent Optimizers (WIP 6/17/2022, Defense 10/10/2022)
+## Updates
+Upcoming project architecture modifications will integrate MATLAB to the workflow. MPC/MHE, modeling, simulation, and data analysis will be offloaded to MATLAB. The flow chart below outlines the overall intended structure.
+
+[Controller Training Block Diagram](/assets/block_diagram.png)
+
 ## Introduction
 This repo is home to all of the AI-MPC algorithms proposed in my thesis. The LaTeX [manuscript](https://www.overleaf.com/read/fnqgjjqtmtzw) is available online.
 This project includes simulated control examples for
