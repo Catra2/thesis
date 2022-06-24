@@ -45,7 +45,16 @@ that basically convinces you to be a data scientist in under 20 minutes.
 Oscillating masses example (from [do-mpc](https://www.do-mpc.com/en/latest/getting_started.html)).
 I modeled it basically just so that I could show this animation.  
 
-![do-mpc-discs](assets/anim_disc_3d_ctrl_motor.gif "Spinny disc things")
+![do-mpc-discs](assets/anim_disc_3d_ctrl_motor.gif "Spinny disc things")  
+
+The QUBE  
+
+![qube](assets/qube.gif "QUBE")  
+
+The AERO 2  
+
+![aero](assets/aero.gif "AERO")  
+
 ## Requirements
 - MATLAB R2021a
 - Python 3.10
