@@ -8,18 +8,13 @@ class config:
     """
     File structure
     """
-    base_path = os.path.abspath(os.path.dirname(__file__))
 
-    """
-    Globals
-    """
+    # Globals
 
-    """
-    AI-related parameters
-    """
+    # Other
+
+    # AI-related parameters
     learning_rate = 1e-3
 
-    """
-    MPC-related parameters
-    """
+    # MPC-related parameters
     horizon = 20

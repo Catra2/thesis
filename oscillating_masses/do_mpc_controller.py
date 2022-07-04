@@ -1,15 +1,7 @@
 """
-Run a simulation with the parameters specified in the configuration file.
-
-Work in progress. Eventual goals for this file:
-    - do_mpc_controller.py will act as a proxy script to call oscillating_masses.py, inverted_single_pendulum.py, etc.
-    - The config.py file will specify which simulation the user desires to run and include options (pre-trained models)
-    - Currently, this do_mpc_controller.py file is actually populated with oscillating_masses.py which will be moved to its own
-        module in the future
-    - argparse() will allow the user to execute specific experiments and specify options for data analysis
-
-The system to be simulated is a 2-motor, 3-disc, 4-spring, rotating inertial mass with friction. The ODE and derivations
-    are provided in the example usage, reference https://www.do-mpc.com/en/latest/getting_started.html
+Run a simulation with the parameters specified in the do-mpc tutorial.
+The system to be simulated is a 2-motor, 3-disc, 4-spring, rotating inertial mass with friction.
+Work in progress 6/27/2022.
 
 """
 import numpy as np
