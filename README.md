@@ -1,12 +1,9 @@
 # Model Predictive Controllers with Intelligent Optimizers (WIP 6/17/2022, Defense 12/2022)
 ## Introduction
 This repo is home to all the Model Predictive Control (MPC) algorithms proposed 
-in my thesis. The LaTeX [manuscript](https://www.overleaf.com/read/fnqgjjqtmtzw) 
-is available online.  
+in my thesis.  
 
 Here you'll find simulated control system examples for:
-- Batch bioreactor
-- Polymerization reactor
 - Oscillating masses (linear)
 - Inverted double pendulum  (no linearization techniques)
 
@@ -56,46 +53,16 @@ The AERO 2
 ![aero](assets/aero.gif "AERO")  
 
 ## Requirements
-- MATLAB R2021a
-- Python 3.10
+- MATLAB R2022a
 - Model Predictive Control Toolbox
-- Probably some other MATLAB plugin to use 3rd party Python libraries (TBD)
 
 ## Usage
-If you have the software pre-requisites, you can run the algorithm manually by executing main.m  
-
-Otherwise, skip to the results section.  
-
-### Using pre-trained models (recommended)
-Models were pre-trained by configuring the MPC in MATLAB and running simulink models. The data
-generated during these runs formed a supervised learning dataset.  
-1. Navigate to the folder containing the project you're interested in
-2. Run the MATLAB file, which will:
-   1. Start Simulink
-   2. Initialize the controllers
-      1. MPC is built-in to MATLAB
-      2. AI model must be loaded and imported to the simulation
-   3. Run the simulation
-
-### Training your own models
-- WIP: Intended use will be something along the lines of:
-  1. "git clone <this repo>"
-  2. "python train.py --options" from command line
-     1. Include information about:
-        1. Dataset format
-        2. Hyper-parameters 
-        3. Network type
-        4. GPU
-        5. Modules detailed in environment.yaml
-           1. Include a requirements.txt for the venv users
-        6. etc.
-  3. Overwrite previous model.pth file
-  4. Run the MATLAB scripts as usual
+If you have the software pre-requisites, you can run the algorithm manually by executing main.m after adding this repo to your MATLAB path
 
 ## Results
 Crossing my fingers this thing works
 ## Related Work
 Key reference papers from the thesis:  
-[[1]](https://arxiv.org/abs/1806.04167) This guy did something pretty similar  
+[[1]](https://arxiv.org/abs/1806.04167) This guy did something kinda similar but mostly presented a statistical way to re-train your controller if it sucks
 [[2]](https://www.sciencedirect.com/science/article/pii/S0967066116302970?via%3Dihub)
 From the folks at do-mpc
